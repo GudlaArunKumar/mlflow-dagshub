@@ -2,3 +2,11 @@ Initially the tracking server url is set to local, so mlruns is created in local
 
 So we will replace local server with dagshub as remote server.
 
+
+In Dagshub 
+
+-> Create a new repository 
+-> connect a repository 
+-> Go to Remote (drop down) -> select Experiments to get the remote tracking URL 
+-> Open gitbash and export all those env variables(tracking URI, user name and password) taken from above 
+
