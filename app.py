@@ -97,7 +97,7 @@ if __name__ == "__main__":
         # Model registry does not work with file store
         if tracking_url_type_store != "file":
 
-            # Register the model
+            # Register the model and model versioning
             mlflow.sklearn.log_model(
                 lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
             )
